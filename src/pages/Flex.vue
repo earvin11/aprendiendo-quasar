@@ -37,9 +37,57 @@
 
     <q-separator spaced />
 
-    <div class="row">
+    <div class="row q-mb-md">
+      <div class="square-box q-mx-md bg-primary"></div>
+      <div class="square-box q-mx-md bg-secondary"></div>
+      <div class="square-box q-mx-md bg-accent"></div>
+    </div>
+
+    <div class="row q-mb-md justify-between">
       <div class="square-box bg-primary"></div>
       <div class="square-box bg-secondary"></div>
+      <div class="square-box bg-accent"></div>
+    </div>
+
+    <div class="row q-mb-md justify-end">
+      <div class="square-box bg-primary"></div>
+      <div class="square-box bg-secondary"></div>
+      <div class="square-box bg-accent"></div>
+    </div>
+
+    <div class="row q-mb-md justify-around">
+      <div class="square-box bg-primary"></div>
+      <div class="square-box bg-secondary"></div>
+      <div class="square-box bg-accent"></div>
+    </div>
+
+    <div class="column q-mb-md items-center bg-dark">
+      <div class="square-box bg-primary"></div>
+      <div class="square-box bg-secondary"></div>
+      <div class="square-box bg-accent"></div>
+    </div>
+
+    <div class="column q-mb-md items-end bg-dark">
+      <div class="square-box bg-primary"></div>
+      <div class="square-box bg-secondary"></div>
+      <div class="square-box bg-accent"></div>
+    </div>
+
+    <div class="column custom-height q-mb-md items-center justify-center bg-dark">
+      <div class="square-box bg-primary"></div>
+      <div class="square-box bg-secondary"></div>
+      <div class="square-box bg-accent"></div>
+    </div>
+
+    <div class="column custom-height q-mb-md items-center justify-between bg-dark">
+      <div class="square-box bg-primary"></div>
+      <div class="square-box bg-secondary"></div>
+      <div class="square-box bg-accent"></div>
+    </div>
+
+    <div class="column custom-height q-mb-md items-center justify-between bg-dark">
+      <div class="square-box bg-primary"></div>
+      <div class="square-box self-end bg-secondary"></div>
       <div class="square-box bg-accent"></div>
     </div>
     
@@ -63,6 +111,10 @@ export default defineComponent({
 .square-box {
   height: 50px;
   width: 50px;
+}
+
+.custom-height {
+  height: 300px;
 }
 
 </style>

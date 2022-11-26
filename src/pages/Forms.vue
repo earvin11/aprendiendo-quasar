@@ -94,7 +94,8 @@ export default defineComponent({
 
           $q.notify({
             message: 'Debe aceptar los terminos y condiciones.',
-            color: 'purple'
+            color: 'purple',
+            icon: 'las la-exclamation-circle'
           })
 
           userForm.value.errorInCondicions = true
